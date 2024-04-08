@@ -1,0 +1,13 @@
+cd Downloads
+pip install --upgrade pip
+pip install tqdm
+curl -O https://www.python.org/ftp/python/x.y.z/python-x.y.z-amd64.exe
+python-x.y.z-amd64.exe
+python --version
+python3 --version
+curl -O https://nmap.org/dist/nmap-7.92-setup.exe
+nmap-7.92-setup.exe
+pip install python-nmap tqdm
+pip install colorama
+
+python3 vulnerbility_scanner.py
